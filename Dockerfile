@@ -4,7 +4,7 @@ WORKDIR /code
 
 #COPY . /code/
 COPY src/fishregression/main.py /code/
-COPY requirements.txt /code/
+#COPY requirements.txt /code/
 
 RUN pip install git+https://github.com/j25ng/fishregression.git@0.2.0/cli
 
